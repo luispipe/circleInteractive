@@ -11,15 +11,14 @@
         android:layout_width="96dp"
         android:layout_height="112dp"
         android:layout_marginStart="38dp"
-        android:layout_marginTop="44dp"
         android:layout_marginEnd="100dp"
-        android:layout_marginBottom="30dp"
         android:backgroundTint="#FFEB3B"
-        app:layout_constraintBottom_toTopOf="@+id/btn_orange2"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/tv_blue1"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.008" />
 
     <Button
         android:id="@+id/btn_orange1"
@@ -75,7 +74,7 @@
         android:backgroundTint="#FF9800"
         app:layout_constraintBottom_toTopOf="@+id/btn_pink"
         app:layout_constraintEnd_toStartOf="@+id/tv_blue1"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.888"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_yellow1" />
 
@@ -114,10 +113,10 @@
         android:gravity="clip_vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.06"
+        app:layout_constraintHorizontal_bias="0.048"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.805" />
+        app:layout_constraintVertical_bias="0.892" />
 
     <TextView
         android:id="@+id/tv_green2"
@@ -127,10 +126,10 @@
         android:gravity="center"
         app:layout_constraintBottom_toTopOf="@+id/tv_red2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.094"
+        app:layout_constraintHorizontal_bias="0.051"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_yellow1"
-        app:layout_constraintVertical_bias="0.452" />
+        app:layout_constraintVertical_bias="0.371" />
 
     <TextView
         android:id="@+id/tv_blue2"
@@ -140,10 +139,10 @@
         android:gravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.407"
+        app:layout_constraintHorizontal_bias="0.449"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.773" />
+        app:layout_constraintVertical_bias="0.892" />
 
     <TextView
         android:id="@+id/tv_red1"
