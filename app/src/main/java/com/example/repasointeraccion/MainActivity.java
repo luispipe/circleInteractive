@@ -47,6 +47,7 @@ public class MainActivity extends AppCompatActivity {
         circle.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                limpiar();
                 circle.setText(color);
                 circle.setTextColor(Color.BLACK);
                 circle.setTextSize(14);
@@ -57,11 +58,27 @@ public class MainActivity extends AppCompatActivity {
         circle.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                limpiar();
                 circle.setText(color);
                 circle.setTextColor(Color.BLACK);
                 circle.setTextSize(14);
             }
         });
+    }
+
+    public void limpiar(){
+        btn_yellow1.setText("");
+        btn_yellow2.setText("");
+        btn_orange1.setText("");
+        btn_orange2.setText("");
+        btn_pink.setText("");
+
+        tv_blue1.setText("");
+        tv_blue2.setText("");
+        tv_green1.setText("");
+        tv_green2.setText("");
+        tv_red1.setText("");
+        tv_red2.setText("");
     }
 
 }
